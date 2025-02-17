@@ -4,12 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TV Box</title>
-    <link rel="stylesheet" href="/thebox/src/styles.css">
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico">
-    <meta name="description" content="Revolutionizing the way you experience Television">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+    <script defer src="script.js"></script> <!-- Falls JS benötigt wird -->
 </head>
-<body class="bg-black text-white">
-    <div id="root"></div>
-    <script src="/thebox/src//index.js" defer></script> <!-- React-Skript laden -->
+<body class="bg-black text-white font-sans">
+
+    <header class="text-center py-16">
+        <h1 class="text-6xl font-semibold">Eurovision Box</h1>
+        <p class="text-2xl mt-4 text-gray-400">Revolutionizing the way you experience TV</p>
+    </header>
+
+    <div class="flex justify-center mb-12">
+        <img src="eurovision-box.png" alt="TV Box" width="500" height="300" class="rounded-lg shadow-lg">
+    </div>
+
+    <main class="max-w-5xl mx-auto grid gap-16">
+        <section class="bg-black border-none shadow-xl p-12 text-center">
+            <h2 class="text-4xl font-medium mt-6">Stunning 4K Streaming</h2>
+            <p class="mt-4 text-gray-400">Immerse yourself in crystal-clear visuals with seamless performance.</p>
+        </section>
+        <section class="bg-black border-none shadow-xl p-12 text-center">
+            <h2 class="text-4xl font-medium mt-6">Exclusive Eurovision Content</h2>
+            <p class="mt-4 text-gray-400">Behind-the-scenes, interviews, and bonus footage at your fingertips.</p>
+        </section>
+        <section class="bg-black border-none shadow-xl p-12 text-center">
+            <h2 class="text-4xl font-medium mt-6">Order Yours Today</h2>
+            <p class="mt-4 text-gray-400">Limited availability. Elevate your TV experience now.</p>
+            <button class="mt-6 px-8 py-3 text-xl bg-white text-black rounded-full hover:opacity-80">
+                Buy Now
+            </button>
+        </section>
+        <section class="bg-black border-none shadow-xl p-12 text-center">
+            <h2 class="text-4xl font-medium mt-6">Features</h2>
+            <ul class="mt-4 text-gray-400 text-lg text-left mx-auto max-w-md">
+                <li>✔ 4K Ultra HD Streaming</li>
+                <li>✔ Exclusive Eurovision Content</li>
+                <li>✔ Multi-Device Compatibility</li>
+                <li>✔ Voice Control Integration</li>
+                <li>✔ Live TV Voting</li>
+                <li>✔ Dolby Atmos Surround Sound</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="text-center py-12 text-gray-500 text-sm">
+        &copy; 2025 TV Box. All rights reserved.
+    </footer>
+
 </body>
 </html>
