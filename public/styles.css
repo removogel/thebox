@@ -1,1 +1,126 @@
-@import "https://cdn.tailwindcss.com/3.4.1";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Apple-Style Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 180px 10% 100px;
+    background: black;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-top: 15px;
+    color: #888;
+}
+
+.cta-button {
+    margin-top: 30px;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background: #ddd;
+}
+
+/* Product Image */
+.product-image {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    background: black;
+}
+
+.product-image img {
+    width: 60%;
+    max-width: 700px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
+}
+
+/* Features Section */
+.features {
+    background: white;
+    text-align: center;
+    padding: 80px 10%;
+}
+
+.feature {
+    margin-bottom: 40px;
+}
+
+.feature h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.feature p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Call to Action */
+.cta {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 100px 10%;
+}
+
+.cta h2 {
+    font-size: 2.5rem;
+}
+
+.cta p {
+    font-size: 1.4rem;
+    color: #888;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px 0;
+    background: #111;
+    color: #888;
+    font-size: 0.9rem;
+}
